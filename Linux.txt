@@ -1,0 +1,8 @@
+clear - очистить терминал от текста
+pwd - показать в какой папке находишься
+ls -la - показать все файлы в текущей папке
+mkdir Alex - создать папку Alex
+rmdir Alex - удалить папку Alex
+cat Nux.txt - показать содержание файла Nux.txt
+vim Eugene_1.txt - открыть файл Eugene_1.txt с помощью текстового редактора vim
+ssh-keygen -t rsa -C "MovchanOlexiy" - сгенерировать SSH-ключ к профилю GitHub "MovchanOlexiy"
