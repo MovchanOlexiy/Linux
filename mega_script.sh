@@ -7,4 +7,4 @@ touch 1.txt 2.txt 3.txt 4.json 5.json  #создаем 5 файлов
 mkdir for_script5 for_script6 for_script7  #создаем еще 3 папки
 ls -l #выводим список содержимого текущей папки
 mv 1.txt 5.json /c/users/АЛЕХАНДРО/desktop/for_script1  #перемещаем 2 файла в начальную папку
-echo "Good job!"  #хвалим себя за скрипт
+echo "Good job!"  #хвалим себя за великолепный скрипт
