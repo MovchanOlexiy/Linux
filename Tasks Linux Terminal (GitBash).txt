@@ -1,0 +1,70 @@
+Linux Terminal:
+0) Задача
+0.1) Решение
+
+1) Посмотреть где я
+1.1) pwd
+
+2) Создать папку 
+2.2) mkdir papka1
+
+3) Зайти в папку
+3.1) cd papka1
+
+4) Создать 3 папки
+4.1) mkdir papka2 papka3 papka4
+
+5) Зайти в любую папку
+5.1) cd papka3
+
+6) Создать 5 файлов (3 txt, 2 json)
+6.1) touch mars.txt neptun.json pluton.txt upiter.txt venera.json neptun.json
+
+7) Создать 3 папки
+7.1) mkdir papka5 papka6 papka7
+
+8. Вывести список содержимого папки
+8.1) ls -l
+
+9) Открыть любой txt файл
+9.1) vim mars.txt
+
+10) Написать туда что-нибудь, любой текст.
+10.1) 	i
+	Tesla is
+	my favorite 
+	car.
+
+11) Сохранить и выйти.
+11.1)	Esc
+	:wq
+
+12) Выйти из папки на уровень выше
+12.1) cd ..
+
+13) Переместить любые 2 файла, которые вы создали, в любую другую папку.
+13.1) mv mars.txt venera.json /c/users/John/desktop/papka1
+
+14) Скопировать любые 2 файла, которые вы создали, в любую другую папку.
+14.1) cp mars.txt venera.json /c/users/John/desktop/papka1/papka3/papka6
+
+15) Найти файл по имени
+15.1) find . -name "neptun.json"
+
+16) Просмотреть содержимое в реальном времени (команда grep) изучите как она работает.
+16.1) less +F /c/users/John/desktop/papka1/mars.txt
+
+17) Вывести несколько первых строк из текстового файла
+17.1) head -2 /c/users/John/desktop/papka1/mars.txt
+
+18) Вывести несколько последних строк из текстового файла
+18.1) tail -2 /c/users/John/desktop/papka1/mars.txt
+
+19) Просмотреть содержимое длинного файла (команда less) изучите как она работает.
+19.1) less /c/users/John/desktop/linux.txt
+
+20) Вывести дату и время
+20.1) date
+
+21) Отправить http запрос на сервер. https://api.quarantine.country/api/v1/regions
+21.1) curl https://api.quarantine.country/api/v1/regions
