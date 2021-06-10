@@ -8,9 +8,11 @@ cd Alex - перейти в папку Alex
 cd .. - выйти с папки (шаг назад)
 cd /.. - выйты с папки (2 шага назад)
 cd ~ - выйти в корневую папку
-rmdir Alex - удалить папку Alex
+rmdir Alex - удалить пустую папку Alex
+rm -R Alex - удалить папку с файлами Alex
 touch Linux.txt Eugene_1.txt Nataliya_1.json - создать 3 файла с соответствующими названиями и форматами
 cat Linux.txt - показать содержание файла Linux.txt
+rm Linux.txt - удалить файл Linux.txt
 vim Eugene_1.txt - открыть файл Eugene_1.txt с помощью текстового редактора vim
 ssh-keygen -t rsa -C "MovchanOlexiy" - сгенерировать SSH-ключ к профилю GitHub "MovchanOlexiy"
 git clone git@github.com:MovchanOlexiy/Linux.git - скопировать комит с GitHub на ПК
