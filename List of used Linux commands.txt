@@ -35,3 +35,4 @@ killall gcalctool - убить все процессы с названием "gc
 grep ribak Linux.txt - поиск слова "ribak" в файле Linux.txt (чувствительный к регистру - text)
 grep -i ribak Linux.txt - поиск слова "ribak" в файле Linux.txt (нечувствительный к регистру - text, TeXt, TEXT)
 grep -R ribak Alex - поиск слова "ribak" в файлах папки Alex
+history - посмотреть историю выполненных команд
