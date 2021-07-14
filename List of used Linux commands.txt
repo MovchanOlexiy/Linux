@@ -36,3 +36,9 @@ grep ribak Linux.txt - поиск слова "ribak" в файле Linux.txt (ч
 grep -i ribak Linux.txt - поиск слова "ribak" в файле Linux.txt (нечувствительный к регистру - text, TeXt, TEXT)
 grep -R ribak Alex - поиск слова "ribak" в файлах папки Alex
 history - посмотреть историю выполненных команд
+git init - создать репозиторий в текущей папке
+git branch - показать на какой ветке находишься
+git checkout -b second-branch - создать доп ветку "second-branch" и сразу перейти на неё
+git checkout master - перейти с вторичной ветки на главную
+git merge second-branch - вмёрджить "second-branch" ветку в текущую
+git branch -d second-branch - удалить "second-branch" ветку
