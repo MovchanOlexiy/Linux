@@ -43,3 +43,4 @@ git checkout -b second-branch - создать доп ветку "second-branch"
 git checkout master - перейти с вторичной ветки на главную
 git merge second-branch - вмёрджить "second-branch" ветку в текущую
 git branch -d second-branch - удалить "second-branch" ветку
+git zalupa
