@@ -42,5 +42,6 @@ git branch - показать на какой ветке находишься
 git checkout -b second-branch - создать доп ветку "second-branch" и сразу перейти на неё
 git checkout master - перейти с вторичной ветки на главную
 git merge second-branch - вмёрджить "second-branch" ветку в текущую
+git push -u origin second-branch - запушить "second-branch" ветку на внешний репозиторий находясь на другой ветке (например main)
 git branch -d second-branch - удалить "second-branch" ветку
-git zalupa
+
