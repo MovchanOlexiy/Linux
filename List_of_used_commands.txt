@@ -12,6 +12,8 @@ rmdir Alex - удалить пустую папку Alex
 rm -R Alex - удалить папку с файлами Alex
 touch Linux.txt Eugene_1.txt Nataliya_1.json - создать 3 файла с соответствующими названиями и форматами
 cat Linux.txt - показать содержание файла Linux.txt
+cp mars.txt venera.json /c/users/John/desktop/papka1/papka3/papka6 - скопировать файлы mars.txt и venera.json в папку "papka6"
+mv mars.txt venera.json /c/users/John/desktop/papka1 - переместить файлы mars.txt и venera.json в папку "papka1"
 rm Linux.txt - удалить файл Linux.txt
 vim Eugene_1.txt - открыть файл Eugene_1.txt с помощью текстового редактора vim
 ssh-keygen -t rsa -C "MovchanOlexiy" - сгенерировать SSH-ключ к профилю GitHub "MovchanOlexiy"
