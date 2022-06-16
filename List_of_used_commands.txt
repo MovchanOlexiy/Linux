@@ -12,18 +12,18 @@ rmdir Alex - видалити пусту папку Alex
 rm -R Alex - видалити папку з файлами Alex
 touch Linux.txt Eugene_1.txt Nataliya_1.json - створити 3 файли з відповідними назвами і форматами
 cat Linux.txt - показати зміст файлу Linux.txt
-_________
-cp mars.txt venera.json /c/users/John/desktop/papka1/papka3/papka6 - скопировать файлы mars.txt и venera.json в папку "papka6"
-mv mars.txt venera.json /c/users/John/desktop/papka1 - переместить файлы mars.txt и venera.json в папку "papka1"
-rm Linux.txt - удалить файл Linux.txt
-vim Eugene_1.txt - открыть файл Eugene_1.txt с помощью текстового редактора vim
-ssh-keygen -t rsa -C "MovchanOlexiy" - сгенерировать SSH-ключ к профилю GitHub "MovchanOlexiy"
-git clone git@github.com:MovchanOlexiy/Linux.git - скопировать комит с GitHub на ПК
-git config --global user.name "Movchan Olexiy" - привязать имя юзера, вносящего комиты
-git config --global user.name - проверить имя юзера, вносящего комиты
-git config --global user.email "test@gmail.com" - привязать почту юзера, вносящего комиты
-git config --global user.email - проверить почту юзера, вносящего комиты
-git clone git@github.com:MovchanOlexiy/test_repo.git - клонировать в текущую папку github-репозиторий test_repo со всеми файлами
+cp mars.txt venera.json /c/users/John/desktop/papka1/papka3/papka6 - скопіювати файли mars.txt і venera.json в папку "papka6"
+mv mars.txt venera.json /c/users/John/desktop/papka1 - перемістити файли mars.txt і venera.json в папку "papka1"
+rm Linux.txt - видалити файл Linux.txt
+vim Eugene_1.txt - відкрити файл Eugene_1.txt з допомогою текстового редактора vim
+ssh-keygen -t rsa -C "MovchanOlexiy" - згенерувати SSH-ключ до профілю GitHub "MovchanOlexiy"
+git clone git@github.com:MovchanOlexiy/Linux.git - скопіювати коміт з GitHub на ПК
+git config --global user.name "Movchan Olexiy" - привязати ім'я юзера, який вносить коміти
+git config --global user.name - перевірити ім'я юзера, який вносить коміти
+git config --global user.email "test@gmail.com" - прив'язати пошту юзера, який вносить коміти
+git config --global user.email - перевірити пошту юзера, який вносить коміти
+git clone git@github.com:MovchanOlexiy/test_repo.git - клонувати в поточну папку github-репозиторій test_repo зі всіма файлами
+_________________
 git status - посмотреть статус файлов в локальном репозитории (красные файлы на ПК)
 git add . - записать изменения всех файлов в локальный репозиторий (зеленые файлы на ПК)
 git commit -m "add files" - создать коммит локального репозитория (слепок, к которому можно откатиться) с комментарием "add files"
