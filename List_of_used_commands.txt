@@ -10,9 +10,9 @@ cd /.. - вийти з папки (2 кроки назад)
 cd ~ - вийти в кореневу папку
 rmdir Alex - видалити пусту папку Alex
 rm -R Alex - видалити папку з файлами Alex
+touch Linux.txt Eugene_1.txt Nataliya_1.json - створити 3 файли з відповідними назвами і форматами
+cat Linux.txt - показати зміст файлу Linux.txt
 _________
-touch Linux.txt Eugene_1.txt Nataliya_1.json - создать 3 файла с соответствующими названиями и форматами
-cat Linux.txt - показать содержание файла Linux.txt
 cp mars.txt venera.json /c/users/John/desktop/papka1/papka3/papka6 - скопировать файлы mars.txt и venera.json в папку "papka6"
 mv mars.txt venera.json /c/users/John/desktop/papka1 - переместить файлы mars.txt и venera.json в папку "papka1"
 rm Linux.txt - удалить файл Linux.txt
