@@ -40,8 +40,8 @@ killall gcalctool - вбити всі процеси з назвою "gcalctool"
 grep ribak Linux.txt - пошук слова "ribak" в файлі Linux.txt (чутливий до регістру - text)
 grep -i ribak Linux.txt - пошук слова "ribak" в файлі Linux.txt (нечутливий до регістру - text, TeXt, TEXT)
 grep -R ribak Alex - пошук слова "ribak" в файлах папки Alex
-_______
-history - посмотреть историю выполненных команд
+history - подивитись історію виконаних команд
+______
 git init - создать репозиторий в текущей папке
 git branch - показать на какой ветке находишься
 git checkout -b second-branch - создать доп ветку "second-branch" и сразу перейти на неё
