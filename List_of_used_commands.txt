@@ -37,10 +37,10 @@ kill -9 25609 - вбити процес з PID-номером 25609
 killall gcalctool - вбити всі процеси з назвою "gcalctool"
 . - застосувати до поточного каталогу
 ./* - застосувати до всіх файлів в поточному каталозі
-______________
 grep ribak Linux.txt - пошук слова "ribak" в файлі Linux.txt (чутливий до регістру - text)
-grep -i ribak Linux.txt - поиск слова "ribak" в файле Linux.txt (нечувствительный к регистру - text, TeXt, TEXT)
-grep -R ribak Alex - поиск слова "ribak" в файлах папки Alex
+grep -i ribak Linux.txt - пошук слова "ribak" в файлі Linux.txt (нечутливий до регістру - text, TeXt, TEXT)
+grep -R ribak Alex - пошук слова "ribak" в файлах папки Alex
+_______
 history - посмотреть историю выполненных команд
 git init - создать репозиторий в текущей папке
 git branch - показать на какой ветке находишься
