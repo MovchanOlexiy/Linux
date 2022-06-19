@@ -38,7 +38,7 @@ killall gcalctool - вбити всі процеси з назвою "gcalctool"
 . - застосувати до поточного каталогу
 ./* - застосувати до всіх файлів в поточному каталозі
 ______________
-grep ribak Linux.txt - поиск слова "ribak" в файле Linux.txt (чувствительный к регистру - text)
+grep ribak Linux.txt - пошук слова "ribak" в файлі Linux.txt (чутливий до регістру - text)
 grep -i ribak Linux.txt - поиск слова "ribak" в файле Linux.txt (нечувствительный к регистру - text, TeXt, TEXT)
 grep -R ribak Alex - поиск слова "ribak" в файлах папки Alex
 history - посмотреть историю выполненных команд
