@@ -46,8 +46,8 @@ git branch - показати на якій гілці знаходишся
 git checkout -b second-branch - створити додаткову гілку "second-branch" і зразу перейти на неї
 git checkout master - перейти із вторинної гілки на головну
 git merge second-branch - вмерджити "second-branch" гілку в поточну
-______
-git push -u origin second-branch - запушить "second-branch" ветку на внешний репозиторий находясь на другой ветке (например main)
+git push -u origin second-branch - запушити "second-branch" гілку на зовнішній репозиторій знаходячись на іншій гілці (наприклад main)
+__________
 git branch -d second-branch - удалить "second-branch" ветку
 adb start-server - запуск спеціальної служби для зв'язку з Android-пристроєм
 adb devices - показати підключені через ADB пристрої
