@@ -44,9 +44,9 @@ history - подивитись історію виконаних команд
 git init - створити репозиторій в поточній папці
 git branch - показати на якій гілці знаходишся
 git checkout -b second-branch - створити додаткову гілку "second-branch" і зразу перейти на неї
-_______
-git checkout master - перейти с вторичной ветки на главную
-git merge second-branch - вмёрджить "second-branch" ветку в текущую
+git checkout master - перейти із вторинної гілки на головну
+git merge second-branch - вмерджити "second-branch" гілку в поточну
+______
 git push -u origin second-branch - запушить "second-branch" ветку на внешний репозиторий находясь на другой ветке (например main)
 git branch -d second-branch - удалить "second-branch" ветку
 adb start-server - запуск спеціальної служби для зв'язку з Android-пристроєм
